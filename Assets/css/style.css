@@ -28,6 +28,16 @@ textarea {
   color: red;
 }
 
+.form {
+  display: flex;
+  white-space: pre-wrap;
+  width: fit-content;
+  height: 100
+  px;
+  font-size: x-large;
+  color: #000000;
+}
+
 .description {
   white-space: pre-wrap;
   width: 750px;
@@ -87,6 +97,7 @@ textarea {
 
 .saveBtn {
   border-left: 1px solid black;
+  width: 159px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
