@@ -9,6 +9,7 @@ textarea {
   border: none;
   resize: none;
   color: #000000;
+  border-top: 5px solid black;
   border-left: 1px solid black;
   padding: 10px;
 }
@@ -23,6 +24,10 @@ textarea {
 
 .description {
   white-space: pre-wrap;
+  width: 750px;
+  font-size: x-large;
+  color: #000000;
+  background-color: lightgray;
 }
 
 .time-block {
@@ -34,12 +39,29 @@ textarea {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+  
 }
 
 .hour {
+  font-size: xx-large;
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding: 20px 25px 20px 25px;
+}
+
+.hour-1 {
+  font-size: xx-large;
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  padding: 20px 7px 20px 25px;
+}
+
+.btn1 {
+  width: 200px;
+  font-size: x-large;
+  background-color: none;
 }
 
 .past {
