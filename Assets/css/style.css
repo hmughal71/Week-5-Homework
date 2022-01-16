@@ -22,22 +22,6 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-.lead {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: x-large;
-  color: red;
-}
-
-.form {
-  display: flex;
-  white-space: pre-wrap;
-  width: fit-content;
-  height: 100
-  px;
-  font-size: x-large;
-  color: #000000;
-}
-
 .description {
   white-space: pre-wrap;
   width: 750px;
@@ -55,7 +39,6 @@ textarea {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
-  
 }
 
 .hour {
@@ -75,7 +58,7 @@ textarea {
 }
 
 .btn1 {
-  width: 200px;
+  width: 350px;
   font-size: x-large;
   background-color: none;
 }
@@ -97,7 +80,6 @@ textarea {
 
 .saveBtn {
   border-left: 1px solid black;
-  width: 159px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
